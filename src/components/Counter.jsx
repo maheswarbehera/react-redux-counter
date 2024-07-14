@@ -32,7 +32,7 @@ function Counter() {
 
 
       <div className='f' style={{padding:" 20px 0"}}>
-        <Input label="name" type='text' value={incrementAmount}
+        <Input label="Name" type='text' value={incrementAmount}
           onChange={e => setIncrementAmount(e.target.value)}/>
         <button
           className='d'
